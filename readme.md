@@ -4,7 +4,7 @@ Entra en la web: https://www.python.org/downloads
 Importante: Cuando estés instalando marca la casilla "Agregar Python al PATH" para que configure automáticamente las variables de entorno.  
 
 #### Paquetes:  
-pip install googlemaps
+pip install googlemaps  
 pip install requests
 
 #### Para que se ejecute en excel:  
