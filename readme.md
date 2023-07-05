@@ -23,3 +23,14 @@ pip install pywin32
 
 ## Nominatim 
 
+
+
+
+## Como ejecutarlo en Excel:  
+
+
+
+
+
+## Cómo ejecutarlo en Libre Office:  
+
