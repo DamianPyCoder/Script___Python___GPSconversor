@@ -12,16 +12,10 @@ pip install requests
 #### Para que se ejecute en excel:  
 pip install pywin32
 
+#### Registro en la api de Google  
+https://developers.google.com/maps/documentation/geocoding/get-api-key
 
 
-## Google Maps  
-
-- Registro en la api https://developers.google.com/maps/documentation/geocoding/get-api-key
-
-
-
-
-## Nominatim 
 
 
 
