@@ -1,7 +1,7 @@
 ## Instalaciones previas  
 #### Python:
 Entra en la web: https://www.python.org/downloads  
-(marca la casilla  "Agregar Python al PATH" para que configure de forma automática las variables de entorno)  
+Importante: Cuando estés instalando marca la casilla "Agregar Python al PATH" para que configure automáticamente las variables de entorno.  
 
 #### Paquetes:  
 pip install googlemaps
