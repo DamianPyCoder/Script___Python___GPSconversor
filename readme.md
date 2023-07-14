@@ -33,7 +33,7 @@ https://developers.google.com/maps/documentation/geocoding/get-api-key
 - Se abrirá el cuadro de diálogo "Asignar macro". Haz clic en "Nuevo" para crear una nueva macro.
 - Se abrirá el editor de VBA (Visual Basic for Applications). En el editor de VBA, puedes escribir tu código Python utilizando la librería "pywin32"  
 
-'''
+"""
 import win32com.client as win32
 def ejecutar_python():
     # Código de Python
@@ -51,7 +51,8 @@ def ejecutar_python():
 
 ejecutar_python()
 
-'''  
+
+"""  
 
 - Guarda el código VBA y cierra el editor de VBA.
 - Ahora, cuando hagas clic en el botón que creaste en la hoja de cálculo, se ejecutará el código Python y el resultado se escribirá en la celda A1 de la hoja de cálculo.
