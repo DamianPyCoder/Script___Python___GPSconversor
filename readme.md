@@ -36,6 +36,7 @@ https://developers.google.com/maps/documentation/geocoding/get-api-key
 
       # Ejemplo de script
       import win32com.client as win32
+  
       def ejecutar_python():
       # Código de Python
        resultado = mi_funcion_python()
@@ -50,10 +51,10 @@ https://developers.google.com/maps/documentation/geocoding/get-api-key
        # Cerrar Excel
        excel.Quit()
 
-   ejecutar_python()
+       ejecutar_python()
 
 
-"""  
+ 
 
 - Guarda el código VBA y cierra el editor de VBA.
 - Ahora, cuando hagas clic en el botón que creaste en la hoja de cálculo, se ejecutará el código Python y el resultado se escribirá en la celda A1 de la hoja de cálculo.
@@ -67,15 +68,15 @@ https://developers.google.com/maps/documentation/geocoding/get-api-key
 - Haz clic en la pestaña "Herramientas" y selecciona "Macros" y luego "Editar macros".
 - Se abrirá el editor de macros de LibreOffice Basic. En el editor de macros, puedes escribir tu código Python utilizando la interfaz de Python para LibreOffice Basic. Aquí tienes un ejemplo básico:
 
-Sub EjecutarPython
-    ' Código de Python
-    resultado = mi_funcion_python()
+      Sub EjecutarPython
+      # Código de Python
+      resultado = mi_funcion_python()
 
-    ' Escribir el resultado en una celda de Calc
-    hoja = ThisComponent.Sheets(0)
-    celda = hoja.getCellRangeByName("A1")
-    celda.Value = resultado
-End Sub
+      # Escribir el resultado en una celda de Calc
+      hoja = ThisComponent.Sheets(0)
+      celda = hoja.getCellRangeByName("A1")
+      celda.Value = resultado
+      End Sub
 
 - Guarda el código y cierra el editor de macros.
 - Regresa a la hoja de cálculo en LibreOffice Calc.
