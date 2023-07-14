@@ -33,23 +33,23 @@ https://developers.google.com/maps/documentation/geocoding/get-api-key
 - Se abrirá el cuadro de diálogo "Asignar macro". Haz clic en "Nuevo" para crear una nueva macro.
 - Se abrirá el editor de VBA (Visual Basic for Applications). En el editor de VBA, puedes escribir tu código Python utilizando la librería "pywin32"  
 
-"""
-import win32com.client as win32
-def ejecutar_python():
-    # Código de Python
-    resultado = mi_funcion_python()
 
-    # Escribir el resultado en una celda de Excel
-    excel = win32.gencache.EnsureDispatch('Excel.Application')
-    workbook = excel.ActiveWorkbook
-    worksheet = workbook.ActiveSheet
-    cell = worksheet.Range('A1')
-    cell.Value = resultado
+   import win32com.client as win32
+   def ejecutar_python():
+      # Código de Python
+       resultado = mi_funcion_python()
 
-    # Cerrar Excel
-    excel.Quit()
+      # Escribir el resultado en una celda de Excel
+       excel = win32.gencache.EnsureDispatch('Excel.Application')
+       workbook = excel.ActiveWorkbook
+       worksheet = workbook.ActiveSheet
+       cell = worksheet.Range('A1')
+       cell.Value = resultado
 
-ejecutar_python()
+       # Cerrar Excel
+       excel.Quit()
+
+   ejecutar_python()
 
 
 """  
