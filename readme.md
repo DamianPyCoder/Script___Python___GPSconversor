@@ -35,8 +35,8 @@ https://developers.google.com/maps/documentation/geocoding/get-api-key
 
 
       # Ejemplo de script
-   import win32com.client as win32
-   def ejecutar_python():
+      import win32com.client as win32
+      def ejecutar_python():
       # Código de Python
        resultado = mi_funcion_python()
 
