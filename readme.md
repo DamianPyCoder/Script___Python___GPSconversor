@@ -34,7 +34,7 @@ https://developers.google.com/maps/documentation/geocoding/get-api-key
 - Se abrirá el editor de VBA (Visual Basic for Applications). En el editor de VBA, puedes escribir tu código Python utilizando la librería "pywin32"  
 
 
-   # Ejemplo de script
+      # Ejemplo de script
    import win32com.client as win32
    def ejecutar_python():
       # Código de Python
